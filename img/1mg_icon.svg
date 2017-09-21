@@ -1,0 +1,24 @@
+<svg width="1676" height="1676" viewBox="0 0 1676 1676" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>1mg</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(5844 -7062)">
+<g id="1mg">
+<mask id="mask0_alpha" mask-type="alpha">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(-1 0 0 1 -4168 7062)" fill="#7A574A"/>
+</g>
+</mask>
+<g id="Rectangle 5" mask="url(#mask0_alpha)">
+<use xlink:href="#path1_fill" transform="translate(-5844 7062)" fill="#14D9E6"/>
+</g>
+<g id="Fill 7" mask="url(#mask0_alpha)">
+<use xlink:href="#path2_fill" transform="translate(-5554 7339)" fill="#FDFDFD"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 1331.23 1676L 344.77 1676C 154.378 1676 0 1521.62 0 1331.23L 0 344.77C 0 154.378 154.378 0 344.77 0L 1331.23 0C 1521.62 0 1676 154.378 1676 344.77L 1676 1331.23C 1676 1521.62 1521.62 1676 1331.23 1676Z"/>
+<path id="path1_fill" d="M 0 0L 1676 0L 1676 1676L 0 1676L 0 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 729.948 748.018L 729.948 373.982L 729.948 3.4133e-08L 364.948 3.4133e-08L -9.3094e-09 3.4133e-08L -9.3094e-09 373.982L 364.948 373.982L 364.948 748.018L -9.3094e-09 748.018L -9.3094e-09 1122L 364.948 1122L 729.948 1122L 1095 1122L 1095 748.018L 729.948 748.018Z"/>
+</defs>
+</svg>
