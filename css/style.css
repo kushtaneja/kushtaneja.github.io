@@ -251,7 +251,7 @@ button:focus,
 
     #products {
       margin-top: 30px;
-      
+
     }
 }
 /*---------------------------
@@ -578,12 +578,14 @@ button:focus,
     opacity: 0.8;
     font-size: 80%;
     }
+    
 .content-item ul {
     list-style: circle;
     line-height: 1.8em;
     font-size: 12px;
     padding-left: 14px;
  }
+
  .content-item img {
     font-size: 4rem; 
     color: #777;
