@@ -235,7 +235,7 @@ button:focus,
 #nav {
 
         margin: 0px;
-        top: 2%;
+        top: 4%;
         position: fixed;
         right: 2%;
 }
@@ -443,9 +443,13 @@ button:focus,
     height: 100%;
     margin-bottom: 10px;
  }
+ #products h1 {
+    font-weight: 500;
+    font-size: 30px;
+ }
 
  #samp {
-    -moz-border-radius: 15px; border-radius: 15px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+    -moz-border-radius: 25px; border-radius: 25px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
  }
 
  @media (max-width : 600px) {
