@@ -451,6 +451,25 @@ button:focus,
  #samp {
     -moz-border-radius: 25px; border-radius: 25px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
  }
+ #setup p {
+    margin: 0px;
+ }
+
+ #setup ul {
+    list-style: disc;
+    padding-left: 14px;
+    font-size: 14px;
+  }
+  #setup h2 {
+    font-size: 25px;
+  }
+  #setup h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+ #setup .section-title {
+    margin-bottom: 0px;
+ }
 
  @media (max-width : 600px) {
 
