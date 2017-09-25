@@ -408,8 +408,34 @@ button:focus,
     margin: 10px auto;
     }
 
+    .activitysheet li {
+        background-color: rgba(119, 119, 119, 0.45);
+    }
+
+
     .header .profile-img {
     background-image    : url(../img/5.jpg);
+    }
+
+    .header .content h1 {
+       color: rgba(255, 255, 255, 0.55);
+    }
+
+    .social-icon li a {
+       color: rgba(255, 255, 255, 0.55);
+    }
+
+    .header .content h2 {
+       color: rgba(255, 255, 255, 0.55);
+    }   
+
+    .social-icon li a:hover {
+        border-color: white;
+        color: white;
+    }
+
+    .header .content {
+       top: 55%;
     }
     }
 
