@@ -477,6 +477,9 @@ button:focus,
     width: 30%;
     height: 30%;
  }
+ .section-title {
+    margin-top: 30px;
+ }
 
  #samp {
     -moz-border-radius: 9px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
