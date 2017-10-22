@@ -229,8 +229,12 @@ button:focus,
 @media (max-width : 480px) {
     .section-wrapper {
         padding : 30px 20px;
+        padding-top: 22%;
         }
-    }
+    #nav h4 {
+        color: white;
+    }  
+}
 
 #nav {
 
@@ -247,13 +251,6 @@ button:focus,
     padding: 5px;
 }
 
-@media (max-width : 600px) {
-
-    #products {
-      margin-top: 30px;
-
-    }
-}
 /*---------------------------
 * Section Title
 *---------------------------*/
@@ -305,6 +302,7 @@ button:focus,
 .activitysheet li {
     background-color: rgba(255, 255, 255, 0.65);
     margin: 2px auto;
+    z-index: 1;
 } 
 .activitysheet li a:hover, a:focus, a:active {
     text-decoration: none;
@@ -409,6 +407,10 @@ button:focus,
 
     .activitysheet li {
         background-color: rgba(119, 119, 119, 0.45);
+    }
+
+    #nav .activitysheet li {
+        background-color: rgba(119, 119, 119, 1);
     }
 
 
