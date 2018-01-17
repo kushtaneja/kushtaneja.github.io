@@ -310,8 +310,8 @@ button:focus,
 
 .header .content {
     position: absolute;
-    top: 40%;
-    right: 5%;
+    top: 30%;
+    left: 5%;
     width: 16%;
     margin: 10px auto;
     }
@@ -399,7 +399,7 @@ button:focus,
     position: absolute;
     top: 30%;
     bottom: auto;
-    left: 10%;
+    left: 7%;
     width: 80%;
     height: 80%;
     margin: 10px auto;
@@ -475,7 +475,7 @@ button:focus,
  }
 
  #samp {
-    -moz-border-radius: 25px; border-radius: 25px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
+    -moz-border-radius: 15px; border-radius: 15px; -webkit-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px; -moz-box-shadow: rgba(0,0,0,0.6) 0px 0px 4px;
  }
  #setup p {
     margin: 0px;
