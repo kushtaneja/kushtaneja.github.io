@@ -366,7 +366,7 @@ button:focus,
     text-align: center;
     border-radius: 100%;
     color: #777;
-    border: 2px solid rgba(119, 119, 119, 0.65);
+    border: 2px solid rgba(255, 255, 255, 0.5);
     padding: 2px;
     }
 
@@ -415,19 +415,19 @@ button:focus,
 
 
     .header .profile-img {
-    background-image    : url(../img/5.jpg);
+    background-image    : url(../img/esummit.jpg);
     }
 
     .header .content h1 {
-       color: rgba(255, 255, 255, 0.55);
+       color: rgba(255, 255, 255, 0.8);
     }
 
     .social-icon li a {
-       color: rgba(255, 255, 255, 0.55);
+       color: rgba(255, 255, 255, 0.8);
     }
 
     .header .content h2 {
-       color: rgba(255, 255, 255, 0.55);
+       color: rgba(255, 255, 255, 0.8);
     }   
 
     .social-icon li a:hover {
@@ -436,8 +436,9 @@ button:focus,
     }
 
     .header .content {
-      top: 44%;
+      top: 34%;
     }
+
     }
 
 /*-------------------
