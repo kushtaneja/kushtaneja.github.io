@@ -73,7 +73,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #777;
+   /* color              : #777;*/
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -725,7 +725,7 @@ button:focus,
     z-index    : 9999;
     }
 
-#status,
+/*#status,
 .status-mes {
     background-image    : url(../img/puff.svg);
     background-position : center;
@@ -744,4 +744,385 @@ button:focus,
     margin     : 0;
     text-align : center;
     top        : 65%;
+    }*/
+    .main {
+
     }
+    .a {
+        
+        width: 100%;
+        height: 700px;
+        background: #FFFFFF;
+        z-index: -2;
+        
+        
+    }
+    .b {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+
+        background: #FFFFFF;
+        top: 700px;
+    }
+    .c {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+
+        background: #FFFFFF;
+        top:1400px;
+    }
+    .d {
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        top:2100px;
+
+        background: #FFFFFF;
+    }
+    .aa {
+        position: absolute;
+        width: 50px;
+        height: 20px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 24px;
+
+        color: #000000;
+        top: 40px;
+        left: 1050px;
+    }
+    .ab{
+        position: absolute;
+        width: 70px;
+        height: 20px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        font-size: 24px;
+
+        color: #000000;
+        top: 40px;
+        left: 1200px;
+}
+.aa a{
+    color: #000;
+}
+.ab a{
+    color: #000;
+}
+.ac iframe {
+    width:960px;
+    height:500px;
+    top:120px;
+    left: 200px;
+    position: absolute;
+}
+iframe {
+    background-color: #C4C4C4;
+    z-index: 0;
+}
+.ad{
+    position: absolute;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    color: black;
+    height:100px;
+    width: 200px;
+    font-size: 50px;
+    top:400px;
+    left:160px;
+    z-index: 2;
+
+}
+.ae{
+    position: absolute;
+    background-color: black;
+    top: 520px;
+    height: 8px;
+    width: 140px;
+    left: 160px;
+}
+.af{
+    position: absolute;
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: normal;
+    background-color: black;
+    color: #fff;
+    height: 40px;
+    width: 270px;
+    top: 480px;
+    left:1040px;
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-top: 5px;
+}
+.af a {
+    color: #fff;
+}
+.ag{
+    position: absolute;
+    background-color: #fff;
+    top: 500px;
+    height: 3px;
+    width: 170px;
+    left: 920px;
+    z-index: 2;
+}
+.ba img {
+    position:absolute;
+    top: 120px;
+    left: 250px;
+    height: 500px;
+    width:360px;
+    background-color: #C4C4C4;
+
+
+}
+.bb {
+    position: absolute;
+    top: 120px;
+    left:660px;
+    height:25px;
+    width:400px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+
+    color: #000000;
+
+
+}
+.bc{
+position: absolute;
+top: 160px;
+left: 660px;
+
+width: 500px;
+height: 400px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+font-size: 20px;
+
+color: #000000;
+
+}
+.bd{
+    position: absolute;
+    top: 560px;
+    left: 660px;
+    background-color: #1C1C1C;
+    color:white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 60px;
+    width:230px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+.be{
+    
+    position: absolute;
+    top: 560px;
+    left: 930px;
+    background-color: #1C1C1C;
+    color:white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 60px;
+    width:260px;
+    padding-top: 20px;
+    font-size: 15px;
+
+}
+.be a {
+    color: #fff;
+}
+.bd a {
+    color:#fff;
+}
+.ca{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top:40px ;
+    left: 570px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    line-height: normal;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    color: #000000;
+}
+.cb{
+ position: absolute;
+ top: 150px;
+ left:300px;
+ width:350px;
+ height: 370px;
+ background-color: #C4C4C4;
+}
+.cba img{
+    width: 100%;
+    left:0;
+    top:0;
+    height:320px;
+
+}
+.cca img{
+    width: 100%;
+    left:0;
+    top:0;
+    height:320px;
+}
+.cbb{
+  width:100%;
+  left:0;
+  top:320px;
+  height:50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 14px;
+  background-color: #E6E6E6;
+}
+.ccb{
+  width:100%;
+  left:0;
+  top:320px;
+  height:50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+  text-align: center;
+  padding-top: 16px;
+  font-size: 14px;
+  background-color:#E6E6E6;
+}
+.cbb a {
+    color: #000;
+}
+.ccb a {
+    color:#000;
+        }
+.cc{
+    position: absolute;
+ top: 150px;
+ left:700px;
+ width:350px;
+ height: 370px;
+ background-color:#C4C4C4;
+}
+
+
+.cd {
+    
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top:650px ;
+    left: 620px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    line-height: normal;
+    font-size: 35px;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    color: #000000;
+}
+.da {
+    position: absolute;
+    top: 10px;
+    left:280px;
+    height:500px;
+    width:800px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 20px;
+    text-align: justify;
+
+     color: #000000;
+
+}
+.db {
+    width:100%;
+    bottom: 0px;
+    height: 180px;
+    background-color: #292929;
+    position: absolute;
+}
+
+.dba {
+    position: absolute;
+    top: 50px;
+    left:600px;
+    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 16px;
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+.dbb {
+    top:90px;
+    position: absolute;
+    left: 520px;
+    width:400px;
+    height:40px;
+
+}
+.dbba {
+    top:0px;
+    position: absolute;
+    left:0px;
+}
+.dbbb {
+    top:0px;
+    position: absolute;
+    left:80px;
+}.dbbc {
+    top:0px;
+    position: absolute;
+    left:160px;
+}.dbbd {
+    top:0px;
+    position: absolute;
+    left:240px;
+}
