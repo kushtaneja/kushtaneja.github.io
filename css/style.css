@@ -277,7 +277,7 @@ button:focus,
     position       : relative;
     }
 
-/*.header .profile-img {
+.header .profile-img {
     position            : absolute;
     top                 : 0;
     left                : 0;
@@ -343,9 +343,9 @@ button:focus,
 
 .header .btn {
     margin-top : 40px;
-    }*/
+    }
 
-.header .content .social-icon {
+.header .content .icon {
     margin  : 0;
     padding : 0;
     padding-top: 10px;
@@ -353,13 +353,13 @@ button:focus,
     display : block;
     }
 
-.header .content .social-icon li {
+.header .content .icon li {
     display : inline-block;
     margin  : 0 2px;
     background-color: transparent;
     }
 
-.social-icon li a {
+.icon li a {
     display: inline-block;
     width: 34px;
     height: 34px;
@@ -371,7 +371,7 @@ button:focus,
     background-color: #C4C4C4;
     }
 
-.social-icon li a:hover {
+.icon li a:hover {
     border-color : #292929;
     cursor: pointer;
     color: #292929;
@@ -385,6 +385,8 @@ button:focus,
 @media (max-width : 600px) {
     .header .profile-img {
         z-index : 1;
+        
+
         }
 
     .header .content {
@@ -400,7 +402,7 @@ button:focus,
     position: absolute;
     top: 30%;
     bottom: auto;
-    left: 7%;
+    left: 10%;
     width: 80%;
     height: 80%;
     margin: 10px auto;
@@ -747,12 +749,14 @@ button:focus,
     top        : 65%;
     }
     .main {
-width: 100%;
+/*width: 100vw;
 box-sizing: content-box;
+overflow: hidden;*/
+
     }
     .a {
         
-        width: 100%;
+        width: 100vw;
         height: 600px;
         background: #FFFFFF;
         z-index: -2;
@@ -761,7 +765,7 @@ box-sizing: content-box;
     }
     .b {
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 650px;
 
         background: #FFFFFF;
@@ -769,7 +773,7 @@ box-sizing: content-box;
     }
     .c {
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 650px;
 
         background: #FFFFFF;
@@ -777,7 +781,7 @@ box-sizing: content-box;
     }
     .d {
         position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 650px;
         top:1950px;
 
@@ -1083,7 +1087,7 @@ color: #000000;
 
 }
 .db {
-    width:100%;
+    width:100vw;
     bottom: 0px;
     height: 180px;
     background-color: #292929;
