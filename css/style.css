@@ -20,7 +20,7 @@ body {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     font-size   : 15px;
     line-height : 1.8em;
-    color       : #777;
+    color       : #000;
     font-weight : 300;
     background  : #ffffff;
     }
@@ -31,13 +31,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin : 0 0 15px;
-    color  : #777;
+    color  : #000;
     }
 
 h1 {
     font-size   : 26px;
     line-height : 1.8em;
-    font-weight : 700;
+    font-weight : 000;
     }
 
 h2 {
@@ -92,8 +92,8 @@ a:active {
 
 a:hover,
 a:focus {
-    text-decoration : underline;
-    color           : #777;
+    text-decoration : none;
+    color           : #000;
     }
 
 p {
@@ -277,7 +277,7 @@ button:focus,
     position       : relative;
     }
 
-.header .profile-img {
+/*.header .profile-img {
     position            : absolute;
     top                 : 0;
     left                : 0;
@@ -343,7 +343,7 @@ button:focus,
 
 .header .btn {
     margin-top : 40px;
-    }
+    }*/
 
 .header .content .social-icon {
     margin  : 0;
@@ -365,15 +365,16 @@ button:focus,
     height: 34px;
     text-align: center;
     border-radius: 100%;
-    color: #777;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #292929;
+    border: 2px solid #C4C4C4;
     padding: 2px;
+    background-color: #C4C4C4;
     }
 
 .social-icon li a:hover {
-    border-color : #777;
+    border-color : #292929;
     cursor: pointer;
-    color: #777;
+    color: #292929;
     }
 
     #cb {
@@ -725,7 +726,7 @@ button:focus,
     z-index    : 9999;
     }
 
-/*#status,
+#status,
 .status-mes {
     background-image    : url(../img/puff.svg);
     background-position : center;
@@ -744,14 +745,15 @@ button:focus,
     margin     : 0;
     text-align : center;
     top        : 65%;
-    }*/
+    }
     .main {
-
+width: 100%;
+box-sizing: content-box;
     }
     .a {
         
         width: 100%;
-        height: 700px;
+        height: 600px;
         background: #FFFFFF;
         z-index: -2;
         
@@ -760,24 +762,24 @@ button:focus,
     .b {
         position: absolute;
         width: 100%;
-        height: 700px;
+        height: 650px;
 
         background: #FFFFFF;
-        top: 700px;
+        top: 650px;
     }
     .c {
         position: absolute;
         width: 100%;
-        height: 700px;
+        height: 650px;
 
         background: #FFFFFF;
-        top:1400px;
+        top:1300px;
     }
     .d {
         position: absolute;
         width: 100%;
-        height: 700px;
-        top:2100px;
+        height: 650px;
+        top:1950px;
 
         background: #FFFFFF;
     }
@@ -790,11 +792,11 @@ button:focus,
         font-style: normal;
         font-weight: normal;
         line-height: normal;
-        font-size: 24px;
+        font-size: 16px;
 
         color: #000000;
-        top: 40px;
-        left: 1050px;
+        top: 50px;
+        left: 1070px;
     }
     .ab{
         position: absolute;
@@ -805,10 +807,10 @@ button:focus,
         font-style: normal;
         font-weight: normal;
         line-height: normal;
-        font-size: 24px;
+        font-size: 16px;
 
         color: #000000;
-        top: 40px;
+        top: 50px;
         left: 1200px;
 }
 .aa a{
@@ -817,17 +819,19 @@ button:focus,
 .ab a{
     color: #000;
 }
-.ac iframe {
-    width:960px;
+ .ac iframe {
+    width:940px;
     height:500px;
     top:120px;
-    left: 200px;
+    left: 210px;
     position: absolute;
 }
 iframe {
     background-color: #C4C4C4;
     z-index: 0;
+    border: 2px solid  #C4C4C4;
 }
+
 .ad{
     position: absolute;
     font-family: Libre Baskerville;
@@ -839,7 +843,7 @@ iframe {
     width: 200px;
     font-size: 50px;
     top:400px;
-    left:160px;
+    left:150px;
     z-index: 2;
 
 }
@@ -849,7 +853,7 @@ iframe {
     top: 520px;
     height: 8px;
     width: 140px;
-    left: 160px;
+    left: 150px;
 }
 .af{
     position: absolute;
@@ -879,12 +883,13 @@ iframe {
     left: 920px;
     z-index: 2;
 }
+
 .ba img {
     position:absolute;
     top: 120px;
-    left: 250px;
-    height: 500px;
-    width:360px;
+    left: 210px;
+    height: 510px;
+    width:350px;
     background-color: #C4C4C4;
 
 
@@ -892,7 +897,7 @@ iframe {
 .bb {
     position: absolute;
     top: 120px;
-    left:660px;
+    left:590px;
     height:25px;
     width:400px;
     font-family: Libre Baskerville;
@@ -909,9 +914,9 @@ iframe {
 .bc{
 position: absolute;
 top: 160px;
-left: 660px;
+left: 590px;
 
-width: 500px;
+width: 510px;
 height: 400px;
 
 
@@ -926,8 +931,8 @@ color: #000000;
 }
 .bd{
     position: absolute;
-    top: 560px;
-    left: 660px;
+    top: 570px;
+    left: 590px;
     background-color: #1C1C1C;
     color:white;
     font-family: Montserrat;
@@ -937,15 +942,15 @@ color: #000000;
     text-align: center;
     height: 60px;
     width:230px;
-    padding-top: 20px;
+    padding-top: 23px;
     font-size: 15px;
 
 }
 .be{
     
     position: absolute;
-    top: 560px;
-    left: 930px;
+    top: 570px;
+    left: 840px;
     background-color: #1C1C1C;
     color:white;
     font-family: Montserrat;
@@ -955,7 +960,7 @@ color: #000000;
     text-align: center;
     height: 60px;
     width:260px;
-    padding-top: 20px;
+    padding-top: 23px;
     font-size: 15px;
 
 }
@@ -975,7 +980,7 @@ color: #000000;
     font-style: normal;
     line-height: normal;
     font-size: 35px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-weight: 500;
     color: #000000;
 }
@@ -984,26 +989,26 @@ color: #000000;
  top: 150px;
  left:300px;
  width:350px;
- height: 370px;
+ height: 380px;
  background-color: #C4C4C4;
 }
 .cba img{
     width: 100%;
     left:0;
     top:0;
-    height:320px;
+    height:330px;
 
 }
 .cca img{
     width: 100%;
     left:0;
     top:0;
-    height:320px;
+    height:330px;
 }
 .cbb{
   width:100%;
   left:0;
-  top:320px;
+  top:330px;
   height:50px;
   font-family: Montserrat;
   font-style: normal;
@@ -1018,7 +1023,7 @@ color: #000000;
 .ccb{
   width:100%;
   left:0;
-  top:320px;
+  top:330px;
   height:50px;
   font-family: Montserrat;
   font-style: normal;
@@ -1030,10 +1035,10 @@ color: #000000;
   font-size: 14px;
   background-color:#E6E6E6;
 }
-.cbb a {
+.cb a {
     color: #000;
 }
-.ccb a {
+.cc a {
     color:#000;
         }
 .cc{
@@ -1041,7 +1046,7 @@ color: #000000;
  top: 150px;
  left:700px;
  width:350px;
- height: 370px;
+ height: 380px;
  background-color:#C4C4C4;
 }
 
@@ -1051,7 +1056,7 @@ color: #000000;
     position: absolute;
     width: 200px;
     height: 30px;
-    top:650px ;
+    top:600px ;
     left: 620px;
     font-family: Libre Baskerville;
     font-style: normal;
@@ -1064,9 +1069,9 @@ color: #000000;
 .da {
     position: absolute;
     top: 10px;
-    left:280px;
+    left:300px;
     height:500px;
-    width:800px;
+    width:750px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
@@ -1094,7 +1099,7 @@ color: #000000;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-font-size: 16px;
+font-size: 17px;
 text-align: justify;
 
 color: #FFFFFF;
