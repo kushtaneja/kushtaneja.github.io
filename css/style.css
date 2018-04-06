@@ -400,9 +400,23 @@ button:focus,
     top: 30%;
     bottom: auto;
     left: 3%;
-    width: 70%;
-    height: 80%;
+    width: 60%;
     margin: 10px auto;
+    }
+
+    .header .content h1 {
+    line-height: 4.5vh;
+    font-weight: 600;
+    font-size: 4.4vh;
+    color: #777;
+    }
+
+    .header .content h2 {
+    font-size: 3.5vh;
+    line-height: 3.6vh;
+    margin: 0px;
+    color: #777;
+    padding: 3px;
     }
 
     .activitysheet li {
