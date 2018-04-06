@@ -399,14 +399,15 @@ button:focus,
     position: absolute;
     top: 30%;
     bottom: auto;
-    left: 7%;
-    width: 80%;
+    left: 3%;
+    width: 70%;
     height: 80%;
     margin: 10px auto;
     }
 
     .activitysheet li {
-        background-color: rgba(0, 0, 0, 0.28);
+        background-color: rgba(221, 219, 220, 0.2);
+
     }
 
     #nav .activitysheet li {
@@ -415,19 +416,20 @@ button:focus,
 
 
     .header .profile-img {
-    background-image    : url(../img/esummit.jpg);
+    background-image    : url(../img/try.jpg);
     }
 
     .header .content h1 {
-       color: rgba(255, 255, 255, 0.8);
+           color: rgb(195, 198, 246);
     }
 
     .social-icon li a {
-       color: rgba(255, 255, 255, 0.8);
+           color: rgb(195, 198, 246);
+           border: 2px solid rgb(195, 198, 246);
     }
 
     .header .content h2 {
-       color: rgba(255, 255, 255, 0.8);
+           color: rgb(195, 198, 246);
     }   
 
     .social-icon li a:hover {
@@ -436,7 +438,7 @@ button:focus,
     }
 
     .header .content {
-      top: 34%;
+      top: 66%;
     }
 
     }
