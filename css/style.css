@@ -397,8 +397,8 @@ button:focus,
 
     .header .content {
     position: absolute;
-    top: 30%;
-    bottom: auto;
+    top: auto;
+    bottom: 2%;
     left: 3%;
     width: 60%;
     margin: 10px auto;
@@ -430,7 +430,8 @@ button:focus,
 
 
     .header .profile-img {
-    background-image    : url(../img/try.jpg);
+    background-image    : url(../img/try1.jpg);
+    opacity: 10%;
     }
 
     .header .content h1 {
@@ -449,10 +450,6 @@ button:focus,
     .social-icon li a:hover {
         border-color: white;
         color: white;
-    }
-
-    .header .content {
-      top: 66%;
     }
 
     }
