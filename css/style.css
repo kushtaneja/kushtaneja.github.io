@@ -92,7 +92,7 @@ a:active {
 
 a:hover,
 a:focus {
-    text-decoration : underline;
+    text-decoration : none;
     color           : #777;
     }
 
